@@ -31,7 +31,7 @@ static void strip_newline(char *s) {
 int main(void) {
     int n = 0;
 
-    printf("歡迎光臨長庚樂透彩購買機台\n");
+    printf("歡迎光臨長庚樂透彩購買機台\2");
     printf("請問您要買幾組樂透彩:");
     if (scanf("%d", &n) != 1 || n < 1 || n > MAX_GROUPS) {
         printf("輸入無效，請輸入 1 到 %d 之間的整數。\n", MAX_GROUPS);
